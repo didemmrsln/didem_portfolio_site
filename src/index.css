@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #141414;
+    color: #E5E0D8;
+  }
+}
+
+.font-serif-luxury {
+  font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, Cambria, serif;
+}
+
+.font-display {
+  font-family: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-editorial {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-mono-code {
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+/* Luxury gold/bronze hairline rule */
+.border-bronze-hairline {
+  border-color: rgba(184, 151, 108, 0.22);
+}
+
+.border-rust-subtle {
+  border-color: rgba(200, 68, 44, 0.35);
+}
+
+/* Custom dark gallery scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #141414;
+}
+::-webkit-scrollbar-thumb {
+  background: #2A2826;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C8442C;
+}
+
+/* Subtle noise or archival paper feel */
+.bg-gallery-dark {
+  background-color: #141414;
+}
+
+.bg-gallery-card {
+  background-color: #1A1918;
+}
+
+.bg-gallery-elevated {
+  background-color: #211F1D;
+}
+
